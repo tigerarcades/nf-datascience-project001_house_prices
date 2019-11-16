@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68653-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-68653-9');
+        gtag('config', 'AW-1035998641');
+    </script>
+
+
+    <title>98109 Income Statistics - Current Census Data for Zip Codes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name='description'
+          content='Get the most current US Census income data for zip code 98109. Compare 98109 income statistics with data for neighboring Washington zip codes, counties and cities.'>
+    <link rel="canonical" href="https://www.incomebyzipcode.com/washington/98109">
+    <link rel="stylesheet" media="all"
+          href="https://d3u7142ylbwtzx.cloudfront.net/assets/application-be95041500636c8ef19f6511e3ca5138760ab1e05e1ba714cedd0c5556e7cfa0.css"
+          data-turbolinks-track="false"/>
+    <!-- Include Leaflet -->
+    <link href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css"
+          integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
+
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token"
+          content="CStax1DoXyD3sQ8lyq1B67FEsWJMSe37CIZa9OPzfZDK7gyZ0ET1NTj78ZlM/yH2lPIYLZJYtvobkwXUuTV3rA=="/>
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class='img-fluid'
+             style='width: 100%;' viewBox="0 0 449 50">
+            <defs>
+                <polygon id="path-1" points="25 0 46.651 12.5 46.651 37.5 25 50 3.349 37.5 3.349 12.5"/>
+            </defs>
+            <g fill="none" fill-rule="evenodd">
+                <use fill="#FFF" xlink:href="#path-1"/>
+                <path stroke="#fff"
+                      d="M25,0.577350269 L46.1506351,12.7886751 L46.1506351,37.2113249 L25,49.4226497 L3.84936491,37.2113249 L3.84936491,12.7886751 L25,0.577350269 Z"/>
+                <polygon fill="#53c419"
+                         points="35.979 12.49 23.7 30.875 35.979 30.875 35.979 35 14.129 35 26.504 16.615 14.983 16.615 14.983 12.49"/>
+                <text fill="#fff" font-size="35" font-weight="bold">
+                    <tspan x="56" y="36">INCOME BY ZIP CODE</tspan>
+                </text>
+            </g>
+        </svg>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item d-none">
+                <a class='nav-link text-primary' href="/median-income-by-zip-code-list">
+                    Downloadable Income By Zip Code Lists
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="/median-income-by-zip-code-list">
+                    Products
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="/median-income-by-zip-code-list#order_form">
+                    Pricing
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="/help/faq">
+                    FAQs
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ">
+            <li class='nav-item'>
+                <form role="search" class="form-inline ml-auto my-auto search-input" action="/search"
+                      accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;"/>
+                    <div class="input-group border border-primary rounded">
+                        <input class="form-control border" placeholder="Search by Zip Code" type="text"
+                               name="search[terms]" id="search_terms"/>
+                        <div class="input-group-append">
+                            <button class="btn btn-light" type="submit"><i class='fa fa-search'></i></button>
+                        </div>
+                    </div>
+                </form>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">
+                    1-800-939-2130
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class='bg-primary'>
+    <div class='container'>
+        <div class='row py-5'>
+            <div class="col-sm pl-md-0">
+                <div id='map' class='rounded'></div>
+            </div>
+            <div class='col-sm text-white'>
+                <h1>98109 <span>Income Statistics</span></h1>
+                <h2>Is 98109 the right zip for your: <span class='font-weight-normal'>marketing campaign, new business or development project?</span>
+                </h2>
+
+                <p class='lead'>Skip hours of searching and get the answers you need with our Zip Code Lists. You'll get
+                    the most current and popular income data that businesses use to find their target customers. </p>
+
+                <ul class='lead'>
+                    <li>Don't waste 8 to 10 high-value hours digging through the US Census Bureau’s website</li>
+                    <li>Up-to-date data</li>
+                    <li>Easy to analyze</li>
+                    <li>Invest your time in your new customers</li>
+                </ul>
+                <a class='btn btn-lg btn-warning' href='/median-income-by-zip-code-list'>Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class='container mt-5 px-3 px-md-0'>
+    <div class='row my-5'>
+        <div class='col-sm-8'>
+            <div class='row my-5'>
+                <div class='col-sm'>
+                    <h2>Median Household Income</h2>
+                    <p>
+
+                        The median household income ($95,719) for 98109 is more than the median household income for <a
+                            href="/washington/98101">98101</a> ($68,750), <a href="/washington/98107">98107</a>
+                        ($83,581), <a href="/washington/98102">98102</a> ($83,403), <a
+                            href="/washington/98103">98103</a> ($91,740), <a href="/washington/98119">98119</a>
+                        ($85,171), <a href="/washington/98121">98121</a> ($94,813), Seattle ($79,565), and King County
+                        ($83,571).
+
+                    </p>
+                </div>
+                <div class='col-sm'>
+                    <div class="table-responsive">
+                        <table class='table'>
+                            <tr>
+                                <th>98109</th>
+                                <th class='text-right'>Seattle</th>
+                                <th class='text-right'>King County</th>
+                            </tr>
+                            <tr>
+                                <td class='hilite'>$95,719</td>
+                                <td class='text-right'>$79,565</td>
+                                <td class='text-right'>$83,571</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class='row mb-5'>
+                <div class='col-sm'>
+                    <h2>Average Household Income</h2>
+                    <p>
+
+                        The average household income ($127,169) for 98109 is less than the average household income for
+                        <a href="/washington/98119">98119</a> ($129,047). But it's more than <a
+                            href="/washington/98101">98101</a> ($103,994), <a href="/washington/98107">98107</a>
+                        ($110,683), <a href="/washington/98102">98102</a> ($116,540), <a
+                            href="/washington/98103">98103</a> ($116,755), <a href="/washington/98121">98121</a>
+                        ($117,075), Seattle ($111,232), and King County ($113,252).
+
+                    </p>
+                </div>
+                <div class='col-sm'>
+                    <div class="table-responsive">
+                        <table class='table'>
+                            <tr>
+                                <th>98109</th>
+                                <th class='text-right'>Seattle</th>
+                                <th class='text-right'>King County</th>
+                            </tr>
+                            <tr>
+                                <td class='hilite'>$127,169</td>
+                                <td class='text-right'>$111,232</td>
+                                <td class='text-right'>$113,252</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class='row mb-5'>
+                <div class='col-sm'>
+                    <h2>Per-Capita Income</h2>
+                    <p>The per-capita income for 98109 is $72,230.
+
+                        The per-capita income for 98109 is less than the per-capita income for <a
+                                href="/washington/98121">98121</a> ($81,412). But it's more than <a
+                                href="/washington/98101">98101</a> ($70,914), <a href="/washington/98107">98107</a>
+                        ($59,309), <a href="/washington/98102">98102</a> ($71,933), <a
+                                href="/washington/98103">98103</a> ($56,013), <a href="/washington/98119">98119</a>
+                        ($63,806), Seattle ($51,872), and King County ($46,316).
+
+                    </p>
+                </div>
+                <div class='col-sm'>
+                    <div class="table-responsive">
+                        <table class='table'>
+                            <tr>
+                                <th>98109</th>
+                                <th class='text-right'>Seattle</th>
+                                <th class='text-right'>King County</th>
+                            </tr>
+                            <tr>
+                                <td class='hilite'>$72,230</td>
+                                <td class='text-right'>$51,872</td>
+                                <td class='text-right'>$46,316</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class='row mb-5'>
+                <div class='col-sm'>
+                    <h2>High Income Households</h2>
+                    <p>13.4% of households make over $200,000 a year.
+
+                        The percent high income households for 98109 is less than the percent high income households for
+                        <a href="/washington/98101">98101</a> (14.1%), <a href="/washington/98107">98107</a> (13.7%), <a
+                                href="/washington/98103">98103</a> (14.8%), <a href="/washington/98119">98119</a>
+                        (18.8%), <a href="/washington/98121">98121</a> (17.1%), and Seattle (13.7%). But it's more than
+                        <a href="/washington/98102">98102</a> (12.0%).
+
+                        And it's the same as King County (13.4%).
+                    </p>
+                </div>
+                <div class='col-sm'>
+                    <div class="table-responsive">
+                        <table class='table'>
+                            <tr>
+                                <th>98109</th>
+                                <th class='text-right'>Seattle</th>
+                                <th class='text-right'>King County</th>
+                            </tr>
+                            <tr>
+                                <td class='hilite'>13.4%</td>
+                                <td class='text-right'>13.7%</td>
+                                <td class='text-right'>13.4%</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class=''>
+                <h2>Median Household Income by Age of Householder</h2>
+                <div class="table-responsive mb-5">
+                    <table class='table'>
+                        <tr>
+                            <th></th>
+                            <th class='text-right'>98109</th>
+                            <th class='text-right'>Seattle</th>
+                            <th class='text-right'>King County</th>
+                        </tr>
+                        <tr>
+                            <th class=''>Householder under 25 years</th>
+                            <td class='hilite'>$64,602</td>
+                            <td class='text-right'>$40,715</td>
+                            <td class='text-right'>$41,991</td>
+                        </tr>
+                        <tr>
+                            <th class=''>Householder 25 to 44 years</th>
+                            <td class='hilite'>$106,113</td>
+                            <td class='text-right'>$91,751</td>
+                            <td class='text-right'>$92,317</td>
+                        </tr>
+                        <tr>
+                            <th class=''>Householder 45 to 64 years</th>
+                            <td class='hilite'>$92,813</td>
+                            <td class='text-right'>$93,188</td>
+                            <td class='text-right'>$99,694</td>
+                        </tr>
+                        <tr>
+                            <th class=''>Householder 65 years and over</th>
+                            <td class='hilite'>$61,233</td>
+                            <td class='text-right'>$50,405</td>
+                            <td class='text-right'>$53,060</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <div class='col-sm-4'>
+            <div id='pitch' class="bg-light-gray p-3 rounded">
+                <div class='container p-3'>
+                    <div class=''>
+                        <div class="">
+                            <h2>Looking for a List of Zip Codes with Income?</h2>
+                            <div class="">
+                                <img class="screenshot-example-zipcodelist-stacked-02 img-fluid"
+                                     src="https://d3u7142ylbwtzx.cloudfront.net/assets/screenshot-example-zipcodelist-stacked-02@2x-1d4d81300e840af01488c0e9658c0d26e0b89971496ec0615d4b3ebf4d1e4d7d.png"
+                                     alt="Screenshot example zipcodelist stacked 02@2x"/>
+                            </div>
+                            <p>If you value your time at $50 an hour, you could waste hundreds of dollars and many hours
+                                searching for data. Or you can work with the data experts at Cubit to make sure you get
+                                the most current demographics available from government data sources. All of our work
+                                comes with a 100% money-back guarantee.</p>
+                            <p>
+                                <b>Get all zip codes in a city, county, state or the entire US with data such as median
+                                    household income.<br></b>
+                            </p>
+                            <p class='text-center'><a class='btn btn-lg btn-primary'
+                                                      href='/median-income-by-zip-code-list'>Starting at $59.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pb-5">
+        <div class='container'>
+            <div class='citations text-muted'>
+                <h2>About the Data</h2>
+                <h3>Sources &amp; Margins of Error</h3>
+                <p>All income statistics above for 98109, Seattle and King County are the most current, comparable
+                    income statistics available from the US Census Bureau and are from the American Community Survey
+                    2017 5-year estimates. These values are in 2017 inflation-adjusted dollars and were downloaded on 6
+                    December 2018.</p>
+                <div class='row'>
+                    <div class='col-md-6'>
+                        <p> The following data tables were used:</p>
+                        <ul>
+                            <li>B19001 Household Income in the Past 12 Months (in 2017 inflation-adjusted dollars)</li>
+                            <li>B19013 Median Household Income in the Past 12 Months (in 2017 inflation-adjusted
+                                dollars)
+                            </li>
+                            <li>B19301 Per Capita Income in the Past 12 Months (in 2017 inflation-adjusted dollars)</li>
+                            <li>S1902 Mean Income in the Past 12 Months (in 2017 inflation-adjusted dollars)</li>
+                            <li>B19049 Median Household Income in the Past 12 Months (in 2017 inflation-adjusted
+                                dollars) By Age Of Householder
+                            </li>
+                        </ul>
+                    </div>
+                    <div class='col-md-6'>
+                        <p>Margins of error for the above income data for 98109, Seattle and King County, are
+                            respectively:</p>
+                        <ul>
+                            <li>Median Household Income: <span class='small'>+/-</span>4,827, <span
+                                    class='small'>+/-</span>1,076, and <span class='small'>+/-</span>617
+                            </li>
+                            <li>Average Household Income: <span class='small'>+/-</span>7,836, <span
+                                    class='small'>+/-</span>1,476, and <span class='small'>+/-</span>843
+                            </li>
+                            <li>Per Capital Income: <span class='small'>+/-</span>4,416, <span class='small'>+/-</span>683,
+                                and <span class='small'>+/-</span>362
+                            </li>
+                            <li>High Income Households: <span class='small'>+/-</span>2.1, <span
+                                    class='small'>+/-</span>0.4, and <span class='small'>+/-</span>0.2
+                            </li>
+                            <li>Median Household Income: Householders under 25: <span class='small'>+/-</span>34,100,
+                                <span class='small'>+/-</span>2,511, and <span class='small'>+/-</span>1,879
+                            </li>
+                            <li>Median Household Income: Householders 25 to 44: <span class='small'>+/-</span>8,533,
+                                <span class='small'>+/-</span>1,715, and <span class='small'>+/-</span>1,105
+                            </li>
+                            <li>Median Household Income: Householders 45 to 64: <span class='small'>+/-</span>13,631,
+                                <span class='small'>+/-</span>2,178, and <span class='small'>+/-</span>1,188
+                            </li>
+                            <li>Median Household Income: Householders 65+: <span class='small'>+/-</span>7,399, <span
+                                    class='small'>+/-</span>1,795, and <span class='small'>+/-</span>1,007
+                            </li>
+                        </ul>
+                        <p>
+                            For MOEs for neighboring zip codes see:
+                            <a href='/washington/98101'>98101</a>, <a href='/washington/98107'>98107</a>, <a
+                                href='/washington/98102'>98102</a>, <a href='/washington/98103'>98103</a>, <a
+                                href='/washington/98119'>98119</a>, and <a href='/washington/98121'>98121</a>.
+                        </p>
+
+                        <p><a href='/help/symbols'>Explanation of Symbols</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class='text-center p-3 py-5'>
+            <p>Email me data tips once a month</p>
+            <div class="createsend-button" style="height:22px;display:inline-block;"
+                 data-listid="y/32/256/B3D/5DE5FA8679E170E2"></div>
+            <script type="text/javascript">
+                (function () {
+                    var e = document.createElement('script');
+                    e.type = 'text/javascript';
+                    e.async = true;
+                    e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=3';
+                    e.className = 'createsend-script';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(e, s);
+                })();
+            </script>
+
+            <p class='copyright'><a href='/help/faq'>FAQ</a> &middot; <a href='/contact'>Contact Us</a> &middot; <a
+                    href='/sitemap'>Site Map</a> &middot; <a href="/terms">Terms &amp; Conditions</a> &middot; <a
+                    href="/terms#PRIVACY">Privacy Policy</a> &middot; Copyright 2019 Cubit Planning Inc.</p>
+        </div>
+
+
+        <!-- [JS] -->
+        <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+        <!-- Include CARTO.js -->
+        <script src="https://cartodb-libs.global.ssl.fastly.net/carto.js/v4.1.10/carto.min.js"></script>
+        <script src="https://d3u7142ylbwtzx.cloudfront.net/assets/application-5b2ecf465f9fcadeca68f8e36ede3a8bcc31943a50eaa21cb9de8029391de123.js"
+                data-turbolinks-track="true"></script>
+
+        <script type="text/javascript">
+            initializeMap();
+            var zipJson = {
+                "type": "Feature",
+                "properties": {
+                    name: '98109'
+                },
+                "geometry": {
+                    "type": "MultiPolygon",
+                    "coordinates": [[[[-122.360539, 47.65292], [-122.354463, 47.649932], [-122.34704, 47.646709], [-122.338338, 47.63952], [-122.337538, 47.63972], [-122.329691, 47.639759], [-122.330437, 47.63622], [-122.327937, 47.63512], [-122.327437, 47.63362], [-122.330437, 47.63432], [-122.326956, 47.632469], [-122.324057, 47.632256], [-122.328269, 47.62815], [-122.328298, 47.61848], [-122.329872, 47.618432], [-122.334304, 47.618529], [-122.352841, 47.61859], [-122.353833, 47.617698], [-122.357363, 47.618608], [-122.358037, 47.622112], [-122.356731, 47.622107], [-122.356691, 47.627191], [-122.357997, 47.627194], [-122.3579, 47.631308], [-122.358297, 47.635954], [-122.356957, 47.635954], [-122.356914, 47.639594], [-122.358252, 47.639595], [-122.35824, 47.641431], [-122.356901, 47.641432], [-122.356868, 47.64689], [-122.357681, 47.650379], [-122.357228, 47.650374], [-122.360756, 47.651778], [-122.360539, 47.65292]]]]
+                }
+            };
+            var zipOverlay = L.geoJson(zipJson, {style: defaultStyle});
+
+            var neighborsJSON = {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            "type": "MultiPolygon",
+                            "coordinates": [[[[-122.344937, 47.60912], [-122.334346, 47.617464], [-122.334304, 47.618529], [-122.329872, 47.618432], [-122.328298, 47.61848], [-122.327855, 47.618495], [-122.327923, 47.614056], [-122.326886, 47.612957], [-122.323115, 47.612157], [-122.323572, 47.610979], [-122.333564, 47.606799], [-122.334674, 47.606336], [-122.339299, 47.604544], [-122.340937, 47.60502], [-122.341737, 47.60522], [-122.342325274609, 47.6043015014773], [-122.344574211164, 47.6084506733252], [-122.344937, 47.60912]]]]
+                        },
+                        'properties': {
+                            name: '98101',
+                            url: '/washington/98101'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            "type": "MultiPolygon",
+                            "coordinates": [[[[-122.409619169659, 47.6758388194588], [-122.406325, 47.675823], [-122.405395, 47.6769], [-122.405052, 47.675163], [-122.403497, 47.675817], [-122.398367, 47.675862], [-122.392958, 47.675904], [-122.392991, 47.675204], [-122.39011, 47.675243], [-122.390105, 47.675927], [-122.384741, 47.675966], [-122.384741, 47.675285], [-122.382125, 47.675283], [-122.382129, 47.675984], [-122.378882, 47.675993], [-122.378882, 47.675279], [-122.376212, 47.675278], [-122.376117, 47.675992], [-122.357441, 47.675997], [-122.357718, 47.670645], [-122.356538, 47.670293], [-122.357385, 47.666356], [-122.357193, 47.654149], [-122.357666, 47.652129], [-122.359398, 47.652676], [-122.354463, 47.649932], [-122.360539, 47.65292], [-122.367339, 47.65642], [-122.376027, 47.659319], [-122.380401, 47.660075], [-122.38744, 47.66322], [-122.39122, 47.663839], [-122.392511, 47.664015], [-122.393682, 47.66368], [-122.403623, 47.666714], [-122.406673, 47.670744], [-122.409283567918, 47.6726728586078], [-122.40944244395, 47.6741716449302], [-122.409601805607, 47.6756750124698], [-122.409619169659, 47.6758388194588]]]]
+                        },
+                        'properties': {
+                            name: '98107',
+                            url: '/washington/98107'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            "type": "MultiPolygon",
+                            "coordinates": [[[[-122.337538, 47.63972], [-122.326537, 47.65032], [-122.322227, 47.653024], [-122.319939, 47.652826], [-122.313037, 47.64722], [-122.312412, 47.647196], [-122.310437, 47.64712], [-122.31085, 47.643123], [-122.313365, 47.643077], [-122.313851, 47.642204], [-122.314428, 47.641661], [-122.313522, 47.641047], [-122.313129, 47.640004], [-122.313669, 47.639678], [-122.315635, 47.641555], [-122.317951, 47.64257], [-122.317952, 47.640849], [-122.316044, 47.640738], [-122.316037, 47.639557], [-122.315224, 47.637238], [-122.31733, 47.63724], [-122.317328, 47.636051], [-122.313609, 47.635984], [-122.312483, 47.633764], [-122.313487, 47.631806], [-122.316509, 47.631822], [-122.317856, 47.630487], [-122.31813, 47.62886], [-122.314571, 47.628415], [-122.314983, 47.624257], [-122.315606, 47.618776], [-122.320856, 47.618738], [-122.324011, 47.618507], [-122.324259, 47.619573], [-122.327855, 47.618495], [-122.328298, 47.61848], [-122.328269, 47.62815], [-122.324057, 47.632256], [-122.326956, 47.632469], [-122.330437, 47.63432], [-122.327437, 47.63362], [-122.327937, 47.63512], [-122.330437, 47.63622], [-122.329691, 47.639759], [-122.337538, 47.63972]]]]
+                        },
+                        'properties': {
+                            name: '98102',
+                            url: '/washington/98102'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            "type": "MultiPolygon",
+                            "coordinates": [[[[-122.357666, 47.652129], [-122.357193, 47.654149], [-122.357385, 47.666356], [-122.356538, 47.670293], [-122.357718, 47.670645], [-122.357441, 47.675997], [-122.357416, 47.681799], [-122.358002, 47.692432], [-122.357398, 47.697842], [-122.358076, 47.701472], [-122.350041, 47.701444], [-122.348405, 47.700867], [-122.347346, 47.701436], [-122.33505, 47.701394], [-122.334296, 47.702395], [-122.333904, 47.703218], [-122.330551, 47.70319], [-122.329963, 47.701439], [-122.329033, 47.693527], [-122.329075, 47.691141], [-122.329136, 47.690368], [-122.328137, 47.688463], [-122.326291, 47.686799], [-122.328334, 47.686848], [-122.3283, 47.683239], [-122.329586, 47.68264], [-122.326441, 47.681003], [-122.325713, 47.679718], [-122.329465, 47.677558], [-122.329612, 47.675948], [-122.328156, 47.675933], [-122.328214, 47.67228], [-122.328225, 47.671567], [-122.328267, 47.667903], [-122.329541, 47.667902], [-122.328296, 47.666006], [-122.328317, 47.657782], [-122.327904, 47.65365], [-122.329085, 47.652452], [-122.331366, 47.650707], [-122.330372, 47.650944], [-122.327874, 47.653087], [-122.32685, 47.653615], [-122.326537, 47.65032], [-122.337538, 47.63972], [-122.338338, 47.63952], [-122.34704, 47.646709], [-122.354463, 47.649932], [-122.359398, 47.652676], [-122.357666, 47.652129]]]]
+                        },
+                        'properties': {
+                            name: '98103',
+                            url: '/washington/98103'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            "type": "MultiPolygon",
+                            "coordinates": [[[[-122.38744, 47.66322], [-122.380401, 47.660075], [-122.376027, 47.659319], [-122.367339, 47.65642], [-122.360539, 47.65292], [-122.360756, 47.651778], [-122.357228, 47.650374], [-122.357681, 47.650379], [-122.356868, 47.64689], [-122.356901, 47.641432], [-122.35824, 47.641431], [-122.358252, 47.639595], [-122.356914, 47.639594], [-122.356957, 47.635954], [-122.358297, 47.635954], [-122.3579, 47.631308], [-122.357997, 47.627194], [-122.356691, 47.627191], [-122.356731, 47.622107], [-122.358037, 47.622112], [-122.357363, 47.618608], [-122.359864, 47.618585], [-122.362298457347, 47.6190119407141], [-122.364501, 47.620342], [-122.369231622255, 47.6243788310131], [-122.370174, 47.625183], [-122.377939, 47.62652], [-122.383739, 47.62632], [-122.383991, 47.631875], [-122.386026695063, 47.6317209312818], [-122.386039, 47.63172], [-122.389634312385, 47.6306239135639], [-122.391159, 47.632323], [-122.387606, 47.633474], [-122.379074, 47.633442], [-122.380442, 47.636126], [-122.380507, 47.640804], [-122.380217, 47.648463], [-122.382014, 47.648459], [-122.381992, 47.650518], [-122.384618, 47.653977], [-122.380606, 47.653994], [-122.38259, 47.655568], [-122.382403, 47.659159], [-122.384078, 47.660838], [-122.387155, 47.662714], [-122.39122, 47.663839], [-122.38744, 47.66322]]]]
+                        },
+                        'properties': {
+                            name: '98119',
+                            url: '/washington/98119'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            "type": "MultiPolygon",
+                            "coordinates": [[[[-122.362298457347, 47.6190119407141], [-122.359864, 47.618585], [-122.357363, 47.618608], [-122.353833, 47.617698], [-122.352841, 47.61859], [-122.334304, 47.618529], [-122.334346, 47.617464], [-122.344937, 47.60912], [-122.34493864896, 47.6091208760351], [-122.353093, 47.613453], [-122.355818501868, 47.6150988610073], [-122.359893520553, 47.6175596607724], [-122.361823642306, 47.6187252120307], [-122.362298457347, 47.6190119407141]]]]
+                        },
+                        'properties': {
+                            name: '98121',
+                            url: '/washington/98121'
+                        }
+                    }
+                ]
+            }
+            var neighborOverlay = L.geoJson(neighborsJSON, {style: neighborStyle});
+            neighborOverlay.eachLayer(function (layer) {
+                layer.on('click', function () {
+                    window.open(layer.feature.properties.url, '_self');
+                });
+                layer.on('mouseover', function () {
+                    layer.setStyle(hoverStyle);
+                });
+                layer.on('mouseout', function () {
+                    layer.setStyle(neighborStyle);
+                });
+            });
+            // add labels (using markers)
+            var zipsMarkers = {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [
+                                -122.3364219,
+                                47.610902
+                            ]
+                        },
+                        'properties': {
+                            name: '98101',
+                            url: '/washington/98101'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [
+                                -122.3775511,
+                                47.6675273
+                            ]
+                        },
+                        'properties': {
+                            name: '98107',
+                            url: '/washington/98107'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [
+                                -122.3218912,
+                                47.6371398
+                            ]
+                        },
+                        'properties': {
+                            name: '98102',
+                            url: '/washington/98102'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [
+                                -122.3381521,
+                                47.6782553
+                            ]
+                        },
+                        'properties': {
+                            name: '98103',
+                            url: '/washington/98103'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [
+                                -122.3709456,
+                                47.6386789
+                            ]
+                        },
+                        'properties': {
+                            name: '98119',
+                            url: '/washington/98119'
+                        }
+                    }, {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [
+                                -122.3505805,
+                                47.6151915
+                            ]
+                        },
+                        'properties': {
+                            name: '98121',
+                            url: '/washington/98121'
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [
+                                -122.3442667,
+                                47.6318633
+                            ]
+                        },
+                        'properties': {
+                            name: '98109',
+                            url: '/washington/98109'
+                        }
+                    }
+                ]
+            }
+
+            var markers = L.geoJson(zipsMarkers, {
+                pointToLayer: function (feature, ll) {
+                    return L.marker(ll, {
+                        icon: L.divIcon({
+                            className: 'map-marker',
+                            html: feature.properties.name
+                        })
+                    });
+                }
+            });
+            markers.eachLayer(function (layer) {
+                layer.on('click', function () {
+                    window.open(layer.feature.properties.url, '_self');
+                });
+            });
+
+
+            markers.addTo(map).bringToBack();
+            map.fitBounds(neighborOverlay.getBounds());
+            zipOverlay.addTo(map)
+            neighborOverlay.addTo(map);
+        </script>
+
+
+</body>
+</html>
